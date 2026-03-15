@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+  
+  --color-adventure-blue: #00A4E4;
+  --color-adventure-yellow: #FDCB58;
+  --color-adventure-green: #54C8B8;
+  --color-adventure-pink: #F086A5;
+  --color-adventure-dark: #2D3748;
+  --color-adventure-light: #E0F7FA;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: var(--color-adventure-light);
+  color: var(--color-adventure-dark);
+}
